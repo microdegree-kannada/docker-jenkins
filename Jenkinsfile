@@ -1,7 +1,7 @@
 pipeline {
     environment {
     imagename = "518572/python-static"
-    registryCredential = 'rajeev_docker_id'
+    registryCredential = 'test-demo'
     dockerImage = ''
     }
     agent any
